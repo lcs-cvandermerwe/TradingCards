@@ -18,9 +18,12 @@ struct DetailView: View {
             Color.red
                 .opacity(1)
                 .padding()
+            
             VStack(alignment: .trailing) {
                 
                 Image("Liverpool")
+                
+                Text(player.player)
                 
             }
             
@@ -31,4 +34,7 @@ struct DetailView: View {
 
 #Preview {
     DetailView(player: firstPlayer)
+}
+#Preview {
+    DetailView(player: vanDijk)
 }

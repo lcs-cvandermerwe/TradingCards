@@ -10,8 +10,28 @@ import SwiftUI
 struct PlayerListView: View {
     var body: some View {
         
+        NavigationStack {
+            
+            List {
+                
+                NavigationLink {
+                    DetailView(player: alexanderArnold)
+                } label: {
+                    Text(alexanderArnold.player)
+                }
+
+                NavigationLink {
+                    DetailView(player: matip)
+                } label: {
+                    Text(matip.player)
+                }
+                
+            }
+            .navigationTitle("Liverpool Lineup")
+            
+        }
         
-        Text("Hello world")
+        
     }
 }
 
