@@ -12,22 +12,22 @@ struct DetailView: View {
     var player: LiverpoolPlayer
     
     var body: some View {
-    Spacer()
+        Spacer()
         ZStack{
-    
+            
             Color.red
                 .opacity(1)
                 .padding()
             VStack(alignment: .trailing) {
-               
+                
                 Image("Liverpool")
                 
             }
-                
-            }
+            
         }
     }
-    
+}
+
 
 #Preview {
     DetailView(player: firstPlayer)
