@@ -14,7 +14,6 @@
 		462AD71F2B59D07E008A2403 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462AD71E2B59D07E008A2403 /* DetailView.swift */; };
 		462AD7212B59D08B008A2403 /* LogoImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462AD7202B59D08A008A2403 /* LogoImageView.swift */; };
 		462AD7242B59D0A4008A2403 /* PlayerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462AD7232B59D0A4008A2403 /* PlayerListView.swift */; };
-		462AD7282B59D0D1008A2403 /* StatisticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462AD7272B59D0D1008A2403 /* StatisticView.swift */; };
 		462AD72A2B59D0F3008A2403 /* EnhancedListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462AD7292B59D0F3008A2403 /* EnhancedListItemView.swift */; };
 		462AD72E2B5EAF82008A2403 /* LiverpoolPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462AD72D2B5EAF82008A2403 /* LiverpoolPlayer.swift */; };
 /* End PBXBuildFile section */
@@ -28,7 +27,6 @@
 		462AD71E2B59D07E008A2403 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		462AD7202B59D08A008A2403 /* LogoImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoImageView.swift; sourceTree = "<group>"; };
 		462AD7232B59D0A4008A2403 /* PlayerListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerListView.swift; sourceTree = "<group>"; };
-		462AD7272B59D0D1008A2403 /* StatisticView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticView.swift; sourceTree = "<group>"; };
 		462AD7292B59D0F3008A2403 /* EnhancedListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnhancedListItemView.swift; sourceTree = "<group>"; };
 		462AD72D2B5EAF82008A2403 /* LiverpoolPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiverpoolPlayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -87,7 +85,6 @@
 				462AD71E2B59D07E008A2403 /* DetailView.swift */,
 				462AD7202B59D08A008A2403 /* LogoImageView.swift */,
 				462AD7232B59D0A4008A2403 /* PlayerListView.swift */,
-				462AD7272B59D0D1008A2403 /* StatisticView.swift */,
 				462AD7292B59D0F3008A2403 /* EnhancedListItemView.swift */,
 			);
 			path = Views;
@@ -173,7 +170,6 @@
 			files = (
 				462AD7242B59D0A4008A2403 /* PlayerListView.swift in Sources */,
 				462AD72E2B5EAF82008A2403 /* LiverpoolPlayer.swift in Sources */,
-				462AD7282B59D0D1008A2403 /* StatisticView.swift in Sources */,
 				462AD7112B59B849008A2403 /* ContentView.swift in Sources */,
 				462AD7212B59D08B008A2403 /* LogoImageView.swift in Sources */,
 				462AD71F2B59D07E008A2403 /* DetailView.swift in Sources */,

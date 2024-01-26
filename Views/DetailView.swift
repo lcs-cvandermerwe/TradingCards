@@ -9,32 +9,38 @@ import SwiftUI
 
 struct DetailView: View {
     
-    var player: LiverpoolPlayer
+    //MARK: Stored Values
+    let cardimage : String
+    let player: LiverpoolPlayer
     
     var body: some View {
-        Spacer()
-        ZStack{
-            
-            Color.red
-                .opacity(1)
-                .padding()
-            
-            VStack(alignment: .trailing) {
-                
-                Image("Liverpool")
-                
-                Text(player.player)
-                
+            ZStack{
+                Color.red
+                    .padding()
+                    .ignoresSafeArea(edges: .bottom)
+                Image(cardimage)
+                    .resizable()
+                    .scaledToFit()
+                    .padding(50)
             }
-            
+        ScrollView{
+            VStack {
+                    
+                    Text(player.player)
+                        .font(.largeTitle)
+                    Image("Liverpool")
+                
+                    
+                }
         }
+       
+            
     }
 }
 
 
+
 #Preview {
-    DetailView(player: firstPlayer)
+    DetailView(cardimage: "vandijk", player: vanDijk)
 }
-#Preview {
-    DetailView(player: vanDijk)
-}
+
