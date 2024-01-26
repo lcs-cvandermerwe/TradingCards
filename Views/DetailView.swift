@@ -14,8 +14,10 @@ struct DetailView: View {
     let player: LiverpoolPlayer
     
     var body: some View {
+        VStack {
             ZStack{
                 Color.red
+                    .opacity(08)
                     .padding()
                     .ignoresSafeArea(edges: .bottom)
                 Image(cardimage)
@@ -23,18 +25,17 @@ struct DetailView: View {
                     .scaledToFit()
                     .padding(50)
             }
-        ScrollView{
-            VStack {
-                    
-                    Text(player.player)
-                        .font(.largeTitle)
-                    Image("Liverpool")
-                
-                    
-                }
-        }
-       
             
+            VStack {
+                
+                Text(player.player)
+                    .font(.largeTitle)
+                Image("Liverpool")
+                
+                
+            }
+        }
+        
     }
 }
 
