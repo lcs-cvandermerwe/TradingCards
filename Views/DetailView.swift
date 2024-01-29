@@ -12,11 +12,12 @@ struct DetailView: View {
     //MARK: Stored Values
     let cardimage : String
     let player: LiverpoolPlayer
-    
+    let colors = Gradient(colors: [.red,.white,.red])
+    let colors2 = Gradient(colors: [.white,.red,.white])
     var body: some View {
         VStack {
             ZStack{
-                Color.red
+                LinearGradient(gradient: colors, startPoint: /*@START_MENU_TOKEN@*/.leading/*@END_MENU_TOKEN@*/, endPoint: /*@START_MENU_TOKEN@*/.trailing/*@END_MENU_TOKEN@*/)
                     .opacity(08)
                     .padding()
                     .ignoresSafeArea(edges: .bottom)
@@ -28,9 +29,16 @@ struct DetailView: View {
             
             VStack {
                 
+                
+                    
+                Image("Liverpool")
+                    .padding()
                 Text(player.player)
                     .font(.largeTitle)
-                Image("Liverpool")
+                Text("\(player.number)")
+                Text(player.nationality)
+                Text("\(player.age)")
+                Text(player.position)
                 
                 
             }

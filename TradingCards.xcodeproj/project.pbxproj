@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		46152F3F2B67E83300AED189 /* LiverpoolPlayerStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46152F3E2B67E83300AED189 /* LiverpoolPlayerStruct.swift */; };
 		462AD70F2B59B849008A2403 /* TradingCardsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462AD70E2B59B849008A2403 /* TradingCardsApp.swift */; };
 		462AD7112B59B849008A2403 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462AD7102B59B849008A2403 /* ContentView.swift */; };
 		462AD7132B59B84C008A2403 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 462AD7122B59B84C008A2403 /* Assets.xcassets */; };
@@ -15,10 +16,10 @@
 		462AD7212B59D08B008A2403 /* LogoImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462AD7202B59D08A008A2403 /* LogoImageView.swift */; };
 		462AD7242B59D0A4008A2403 /* PlayerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462AD7232B59D0A4008A2403 /* PlayerListView.swift */; };
 		462AD72A2B59D0F3008A2403 /* EnhancedListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462AD7292B59D0F3008A2403 /* EnhancedListItemView.swift */; };
-		462AD72E2B5EAF82008A2403 /* LiverpoolPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462AD72D2B5EAF82008A2403 /* LiverpoolPlayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		46152F3E2B67E83300AED189 /* LiverpoolPlayerStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiverpoolPlayerStruct.swift; sourceTree = "<group>"; };
 		462AD70B2B59B849008A2403 /* TradingCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TradingCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		462AD70E2B59B849008A2403 /* TradingCardsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradingCardsApp.swift; sourceTree = "<group>"; };
 		462AD7102B59B849008A2403 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -28,7 +29,6 @@
 		462AD7202B59D08A008A2403 /* LogoImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoImageView.swift; sourceTree = "<group>"; };
 		462AD7232B59D0A4008A2403 /* PlayerListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerListView.swift; sourceTree = "<group>"; };
 		462AD7292B59D0F3008A2403 /* EnhancedListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnhancedListItemView.swift; sourceTree = "<group>"; };
-		462AD72D2B5EAF82008A2403 /* LiverpoolPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiverpoolPlayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,7 +93,7 @@
 		462AD71D2B59B883008A2403 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				462AD72D2B5EAF82008A2403 /* LiverpoolPlayer.swift */,
+				46152F3E2B67E83300AED189 /* LiverpoolPlayerStruct.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -169,9 +169,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				462AD7242B59D0A4008A2403 /* PlayerListView.swift in Sources */,
-				462AD72E2B5EAF82008A2403 /* LiverpoolPlayer.swift in Sources */,
 				462AD7112B59B849008A2403 /* ContentView.swift in Sources */,
 				462AD7212B59D08B008A2403 /* LogoImageView.swift in Sources */,
+				46152F3F2B67E83300AED189 /* LiverpoolPlayerStruct.swift in Sources */,
 				462AD71F2B59D07E008A2403 /* DetailView.swift in Sources */,
 				462AD70F2B59B849008A2403 /* TradingCardsApp.swift in Sources */,
 				462AD72A2B59D0F3008A2403 /* EnhancedListItemView.swift in Sources */,
