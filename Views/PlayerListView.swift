@@ -45,13 +45,14 @@ struct PlayerListView: View {
                     
                 }
             }
-        }
             .navigationTitle("Liverpool Lineup")
-            
+
         }
-        
         
     }
+    
+    
+}
 
 #Preview {
     PlayerListView()
